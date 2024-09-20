@@ -1,16 +1,19 @@
 import ProjectCard from "@/components/ProjectCard";
+import projects from "@/contants/projects";
 
 const Projects = () => {
   return (
     <div className="mx-10">
       <h3 className="text-4xl">Projects / My Works</h3>
       <div className="flex flex-wrap gap-10 justify-center">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        {projects.map((project, _) => (
+          <ProjectCard
+            imageUrl={project.imgUrl}
+            title={project.title}
+            desc={project.desc}
+            tech={project.tech}
+          />
+        ))}
       </div>
     </div>
   );

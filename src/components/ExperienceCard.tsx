@@ -1,3 +1,5 @@
+import React from "react";
+
 interface Props {
   designation: string;
   duration: string;
@@ -5,9 +7,14 @@ interface Props {
   location: string;
 }
 
-const ExperienceCard = ({ designation, duration, companyname, location }) => {
+const ExperienceCard: React.FC<Props> = ({
+  designation,
+  duration,
+  companyname,
+  location,
+}: Props) => {
   return (
-    <div className="border-[0.5px] px-10 border-color: rgb(82 82 91) p-9 rounded-md my-4">
+    <div className="border-[0.5px] border-[#222222] px-10  p-9 my-4">
       <h4 className="text-xl">{designation}</h4>
       <p className="text-[#464545]">{duration}</p>
       <div className="my-2">
