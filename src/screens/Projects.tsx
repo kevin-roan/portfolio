@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="flex flex-wrap gap-10 justify-center">
         {projects.map((project, _) => (
           <ProjectCard
-            imageUrl={project.imgUrl}
+            imgUrl={project.imgUrl}
             title={project.title}
             desc={project.desc}
             tech={project.tech}

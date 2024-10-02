@@ -1,4 +1,5 @@
 "use client";
+//@ts-ignore
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -32,7 +33,7 @@ const Info = () => {
       >
         <motion.h1
           className="text-4xl md:text-6xl my-2 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-gray-100 font-bold"
-          variants={slideIn}
+          // variants={slideIn}
         >
           Kevin Roan
         </motion.h1>
