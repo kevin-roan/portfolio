@@ -31,10 +31,7 @@ const Info = () => {
           animate: { opacity: 1, transition: { staggerChildren: 0.2 } },
         }}
       >
-        <motion.h1
-          className="text-4xl md:text-6xl my-2 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-gray-100 font-bold"
-          variants={slideIn}
-        >
+        <motion.h1 className="text-4xl md:text-6xl my-2 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-gray-100 font-bold">
           Kevin Roan
         </motion.h1>
         <motion.h3
