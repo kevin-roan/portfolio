@@ -32,6 +32,11 @@ const TechStack = () => {
             <h4>Instagram: https://instagram.com/kevinroan_</h4>
           </div>
           <div className="border-[0.5px] border-[#222222] p-2">
+            <img
+              src="/signature.jpg"
+              alt="signautre"
+              className="w-full h-[50px]"
+            />
             <h2 className="text-[#FF5C00] font-bold text-xl">Signature</h2>
             <p className="text-sm">~ Designed and Developed by Kevin Roan</p>
           </div>

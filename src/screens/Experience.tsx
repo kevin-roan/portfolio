@@ -10,7 +10,7 @@ const Experience = () => {
       <div className="py-10 gap-3 ">
         <ExperienceCard
           companyname={"Adacode Solutions"}
-          duration={"2024-Present"}
+          duration={"2024 Jan -Present"}
           location={"Calicut,Kerala | OnSite"}
           designation={
             "Full Stack Developer (React Native / NextJs,ElectronJs)"
@@ -18,7 +18,7 @@ const Experience = () => {
         />
         <ExperienceCard
           companyname={"Freelance Developer"}
-          duration={"2024-Present"}
+          duration={"2023 March -Jan 2024 "}
           location={"Pixel Experience , Bluegen Solutions , Hsatco | Remote"}
           designation={
             "Freelance Developer (ReactJs,NextJs,Sys Admin,Linux,AOSP)"

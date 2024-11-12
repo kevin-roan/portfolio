@@ -33,7 +33,7 @@ const Info = () => {
       >
         <motion.h1
           className="text-4xl md:text-6xl my-2 bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-gray-100 font-bold"
-          // variants={slideIn}
+          variants={slideIn}
         >
           Kevin Roan
         </motion.h1>
@@ -82,18 +82,13 @@ const Info = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        <div className="md:hidden w-full max-w-[80vw] mx-auto">
+        <div className="flex justify-center items-center">
           <Image
             src="/threejscard.png"
             alt="Card Image"
-            width={500}
-            height={500}
-            layout="responsive"
+            width={300}
+            height={200}
           />
-        </div>
-
-        <div className="hidden md:block w-full h-[600px] max-w-[80%] mx-auto ">
-          <ThreeJsCard imageUrl="/threejscard.png" />
         </div>
       </motion.div>
     </div>
